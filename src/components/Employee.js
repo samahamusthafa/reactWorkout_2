@@ -8,4 +8,4 @@ function Employee(props) {
   )
 }
 
-export default Employee
+export default Employee;
