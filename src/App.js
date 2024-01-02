@@ -1,10 +1,15 @@
 import React from 'react';
-import Todo from './Todo';
+import NavBar from './Components/NavBar/NavBar';
+import Banner from './Components/Banner/Banner';
+import './App.css'
+import RowPost from './Components/RowPost/RowPost';
 
 function App() {
   return (
     <div className="app">
-      <Todo/>
+      <NavBar/>
+      <Banner/>
+      <RowPost/>
     </div>
   );
 }
