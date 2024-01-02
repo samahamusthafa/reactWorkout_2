@@ -1,14 +1,12 @@
-import React, { useState } from 'react'
-import Counter from './components/Counter';
+import React from 'react';
+import Todo from './Todo';
 
 function App() {
-  const [state,setState] = useState(false);
   return (
-    <div className='App '>
-      <h1 onClick={()=>setState(!state)}>Show/Hide</h1>
-      {state && <Counter/>}
+    <div className="app">
+      <Todo/>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
